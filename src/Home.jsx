@@ -31,6 +31,7 @@ import img21 from './images/R21.jpg';
 import img22 from './images/R22.jpg';
 import img23 from './images/R23.jpg';
 import { CardText } from 'react-bootstrap';
+import img24 from './images/R24.jpg';
 
 
 
@@ -40,7 +41,7 @@ const Home = ()=>{
     <div style={{backgroundColor:"yellowgreen"}}>
 <Nav fill variant="tabs" defaultActiveKey="/home">
 <Nav.Item>
-        <h3>Printify</h3>
+        <img src={img24} width="60px" />
       </Nav.Item>
 
       <Nav.Item>
@@ -487,13 +488,13 @@ Largest Global Print Network
 <br />
 
 <div className='data8' style={{backgroundColor:"greenyellow",}}>
-    <div>Printify</div>
+    <div><img src={img24} width="60px" /></div>
 <div className='data9'>
-<img src={img19} style={{width:"40px"}}/>
-<img src={img21} style={{width:"40px"}}/>
-<img src={img22} style={{width:"40px"}}/>
-<img src={img23} style={{width:"40px"}}/>
-<img src={img20} style={{width:"40px"}}/>
+<img src={img19} style={{width:"40px", height:"60px"}}/>
+<img src={img21} style={{width:"40px", height:"60px"}}/>
+<img src={img22} style={{width:"40px", height:"60px"}}/>
+<img src={img23} style={{width:"40px", height:"60px"}}/>
+<img src={img20} style={{width:"40px", height:"60px"}}/>
 </div>
 
 </div>
