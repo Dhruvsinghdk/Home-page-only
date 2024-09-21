@@ -12,5 +12,39 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: right;
-   
+}
+.data4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: right;
+}
+
+.data5{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.data6{
+    display: flex;
+    justify-content: center;
+}
+.data7{
+    display: flex;
+    justify-content: right;
+}
+.data8{
+    display: flex;
+    justify-content: center;
+    gap: 70%;
+}
+.data9{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.data10{ 
+    display: flex;
+    justify-content: center;
+    gap: 10%;
 }
